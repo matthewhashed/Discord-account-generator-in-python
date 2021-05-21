@@ -9,12 +9,13 @@ import secrets
 import time
 hash = secrets.token_hex(nbytes=16)
 web = Browser()
-web.go_to('PLACE DISCORD INVITE LINK HERE')
+web.go_to('https://discord.gg/9rWDYTzdV6')
 time.sleep(5)
 print('Creating an account: ')
 print(hash)
 web.type(hash)
 web.click("Continue")
+time.sleep(5)
 web.quit()
 
 ```
