@@ -1,5 +1,7 @@
 You will need to add a dependency called `webbot`:
+
 `pip install webbot`
+
 Then, create a file called `gen.py`, and add this inside the file:
 ```py
 from webbot import Browser
@@ -17,5 +19,7 @@ while True:
 	web.quit()
 	time.sleep(150)
 ```
+
 Then run the file, using python:
+
 `python gen.py`
