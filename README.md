@@ -1,4 +1,5 @@
-### Discord hasn't stated anything about this being against ToS, but you'd might aswell want to use this at your own risk.
+# How to make a Discord account generator in python
+### Discord hasn't stated anything about this script being against ToS, but you'd might aswell want to use this at your own risk.
 
 You will need to add a dependency called `webbot`:
 
