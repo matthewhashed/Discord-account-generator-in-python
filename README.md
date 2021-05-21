@@ -6,20 +6,22 @@ Then, create a file called `gen.py`, and add this inside the file:
 ```py
 from webbot import Browser
 import secrets
-import time	
-while True:
-	time.sleep(150)
-	hash = secrets.token_hex(nbytes=16)
-	print('Creating an account: ')
-	print(hash)
-	web = Browser()
-	web.go_to('discord.gg/nF37bVa3pb')
-	web.type(hash)
-	web.click("Continue")
-	web.quit()
-	time.sleep(150)
-```
+import time
+hash = secrets.token_hex(nbytes=16)
+web = Browser()
+web.go_to('PLACE DISCORD INVITE LINK HERE')
+time.sleep(5)
+print('Creating an account: ')
+print(hash)
+web.type(hash)
+web.click("Continue")
+web.quit()
 
-Then run the file, using python:
+```
+Replace `PLACE DISCORD INVITE LINK HERE` with your server's invite link.
+
+Then for every time you want an account to join, just run the file using python:
 
 `python gen.py`
+
+You have to delay a few minutes in between the time you run this python file.
