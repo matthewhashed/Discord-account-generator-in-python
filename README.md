@@ -12,7 +12,7 @@ import secrets
 import time
 hash = secrets.token_hex(nbytes=16)
 web = Browser()
-web.go_to('https://discord.gg/9rWDYTzdV6')
+web.go_to('REPLACE DISCORD INVITE LINK HERE')
 time.sleep(5)
 print('Creating an account: ')
 print(hash)
